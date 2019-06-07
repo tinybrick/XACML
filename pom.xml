@@ -85,6 +85,7 @@
 		<version.mockito>1.10.19</version.mockito>
 		<version.log4j>2.11.0</version.log4j>
 		<version.xmlapi>1.4.01</version.xmlapi>
+		<version.javaxml>2.3.1</version.javaxml>
 	</properties>
 
 	<modules>
@@ -202,6 +203,11 @@
 				<groupId>xml-apis</groupId>
 				<artifactId>xml-apis</artifactId>
 				<version>${version.xmlapi}</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.xml.bind</groupId>
+				<artifactId>jaxb-api</artifactId>
+				<version>${version.javaxml}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
