@@ -161,7 +161,7 @@ public class FunctionDefinitionAccessPermittedTest {
 	// Name Spaces used in the XML as part of these examples - needed for compiling XPaths
 	NamespaceContext nameSpaceContext = new NamespaceContext() {
 	    @Override
-	    public Iterator<?> getPrefixes(String arg0) { return null;}
+	    public Iterator<String> getPrefixes(String arg0) { return null;}
 
 	    @Override
 	    public String getPrefix(String arg0) {return null;}
